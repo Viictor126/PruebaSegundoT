@@ -1,0 +1,111 @@
+@font-face {
+   font-family: Street;
+   src: url('Font/street.otf');
+}
+
+:root{
+	box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   background-image: url('img/fondo2.jpg');
+   background-size: cover;
+   background-repeat: repeat-y;
+}
+
+h1{
+   font-family: 'Street';
+   color: crimson;
+   font-size: 46px;
+   text-align: center;
+}
+
+table{
+   width: 600px;
+   height: 800px;
+   border: 10px outset rgb(237, 175, 5);
+   border-radius: 10px;
+   margin: 0 auto;
+   font-family: 'Street';
+   background-color: black;
+}
+
+td, tr{
+   width: 40px;
+   height: 45px;
+   border: 2px solid grey;
+   border-radius: 10px;
+   font-size: 18px;
+   font-weight: bold;
+   color: darkorange;
+   text-align: center;
+}
+
+p{
+   transform: translate(0, -100px); /*no se si lo hemos visto en clase pero es que sino es imposible colocar el texto encima*/
+   margin: 70% 0;
+}
+
+#thead{
+   background-image: url('img/fondocabecera.jpg');
+   background-size: contain;
+   font-size: 40px;
+   color: white;
+   opacity: 0.5;
+   text-align: center;
+   background-position: center;
+}
+
+.Ken{
+   background-image: url(img/ken.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+
+.Chun{
+   background-image: url(img/ChunLi.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+
+.Zangief{
+   background-image: url(img/Zangief.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+
+.Dhalsim{
+   background-image: url(img/Dhalsim.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+
+.Ryu{
+   background-image: url(img/ChunLi.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+/*
+Ryu
+EHonda
+Blanka
+Guile
+THawk
+FeiLong
+DeeJay
+Cammy
+Balrog
+Vega
+Sagat
+MBison*/
+
+form{
+   font-family: 'Street';
+}
